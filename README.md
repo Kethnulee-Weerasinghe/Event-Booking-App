@@ -10,7 +10,7 @@ To view or edit the project:
 git clone https://github.com/Kethnulee-Weerasinghe/Event-Booking-App.git
 cd Event-Booking-App
 ```
-## Installation & Dependencies
+## Installation
 
 **Backend Setup**
 
@@ -33,10 +33,13 @@ npm run dev
 ## Overview
 
 This project is an event booking system (frontend + backend) designed so that:
-
+ 
+- Authentication & authorization ensures correct access
+- Calendar view with marked events  
+- Cross-origin friendly API communication
 - Users can browse upcoming events and view details  
-- Users can make and cancel bookings  
-- Authentication & authorization ensures correct access  
+- Users can make and cancel bookings
+- Search and filter events by date or location  
 
 ## Technologies
 
@@ -44,12 +47,13 @@ This project is an event booking system (frontend + backend) designed so that:
 
  - JavaScript
  - React
- - Tailwind CSS
+ - Tailwind CSS v3
  - React icons
 
 **Backend**
 
-  - Node.js + Express
+ - Node.js + Express
+ - CORS
 
 **Authentication**
 
