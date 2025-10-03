@@ -48,14 +48,10 @@ This project is an event booking system (frontend + backend) designed so that:
  - JavaScript
  - React
  - Tailwind CSS v3
- - React icons
+ - NextAuth.js
 
 **Backend**
 
  - Node.js + Express
  - CORS
-
-**Authentication**
-
-- NextAuth.js
-- bcrypt
+ - bcrypt
